@@ -4,9 +4,9 @@
    2.1) Reading Input from Text File
    2.2) Writing Output to Text File
 
-## 1. Packages Info
-# import java.io.*; tells the compiler import all the input/output packages e,g File,FileInputStream,PrintWriter,BufferedReader,BufferedWriter
-# import java.util.*; tells the compiler import all the utilit packages e.g Scanner,ArrayList,List,Arrays,Collections
+## 1. Java Packages Info
+import java.io.*; tells the compiler import all the input/output packages e,g File,FileInputStream,PrintWriter,BufferedReader,BufferedWriter
+import java.util.*; tells the compiler import all the utilit packages e.g Scanner,ArrayList,List,Arrays,Collections
 ```java
 import java.io.*;
 import java.util.*;
