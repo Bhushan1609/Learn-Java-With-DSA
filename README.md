@@ -5,6 +5,7 @@
    2.2) Writing Output to Text File<br>
 3) Creates a dynamic ArrayList initialized with given values using Arrays.asList().
 4) Swap built function work in the case list only
+5) Get and set values of list
 
 ## 1. Java Packages Info
 import java.io.*; tells the compiler import all the input/output packages e,g File,FileInputStream,PrintWriter,BufferedReader,BufferedWriter
@@ -31,4 +32,10 @@ List<Integer>arr=new ArrayList<>(Arrays.asList(13,46,24,52,20,9));
 ```java
 List<Integer>arr
 Collections.swap(arr, i, minIndex);
+```
+## 5. Get and set values of list
+```java
+int temp=arr.get(i);
+arr.set(i,arr.get(j));
+arr.set(j,temp);
 ```
