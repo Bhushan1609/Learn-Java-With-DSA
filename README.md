@@ -6,6 +6,7 @@
 3) Creates a dynamic ArrayList initialized with given values using Arrays.asList().
 4) Swap built function work in the case list only
 5) Get and set values of list
+6) Array length int[] arr 
 
 ## 1. Java Packages Info
 import java.io.*; tells the compiler import all the input/output packages e,g File,FileInputStream,PrintWriter,BufferedReader,BufferedWriter
@@ -38,4 +39,10 @@ Collections.swap(arr, i, minIndex);
 int temp=arr.get(i);
 arr.set(i,arr.get(j));
 arr.set(j,temp);
+```
+
+## 6. Array length int[] arr 
+```java
+int[] arr
+int n=arr.length;
 ```
