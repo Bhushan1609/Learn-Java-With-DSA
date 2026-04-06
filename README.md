@@ -1,6 +1,11 @@
-# Learn-Java-With-DSA
+# 🚀 Learn Java with DSA
 
-1) ## 📌 Reading Input from Text File
+> 📚 Personal quick revision notes for Java + DSA
 
+---
+
+## 🔢 1. Input / Output
+
+### 1.1 📌 Reading Input from Text File
 ```java
-Scanner in = new Scanner(new File("input.txt")); // Used to read input from a file instead of standard input (keyboard).
+Scanner in = new Scanner(new File("input.txt"));
