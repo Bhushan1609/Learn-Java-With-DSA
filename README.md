@@ -1,7 +1,7 @@
 # 🚀 Learn Java with DSA
 1) Packages
 2) Input/Output via text files<br>
-   2.1) Reading Input from Text File<br>
+   2.1) Reading Input from Text File<br> 
    2.2) Writing Output to Text File<br>
 3) Creates a dynamic ArrayList initialized with given values using Arrays.asList().
 4) Swap built function work in the case list only
