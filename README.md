@@ -9,6 +9,8 @@
 6) Array length int[] arr
 7) Declaration int minimum and maximum
 8) Declaration of Array
+9) Declaration of List
+
 
 ## 1. Java Packages Info
 import java.io.*; tells the compiler import all the input/output packages e,g File,FileInputStream,PrintWriter,BufferedReader,BufferedWriter
@@ -58,7 +60,7 @@ long max = Long.MAX_VALUE;
 
 ```
 
-## 7. Declaration of Array 
+## 8. Declaration of Array 
 ```java
 int[] dp = new int[n];
 
@@ -67,3 +69,13 @@ int[][] dp = new int[n][m];
 int[][][] dp = new int[n][m][k];
 
 ```
+
+
+## 9. Declaration of Array 
+```java
+List<Integer> position = new ArrayList<>();
+
+List<Integer> position = new ArrayList<>(n); with size n
+
+```
+
