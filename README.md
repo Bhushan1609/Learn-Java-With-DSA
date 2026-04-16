@@ -102,3 +102,9 @@ List<List<Long>>dp=new ArrayList<>();
             mapp.computeIfAbsent(nums[i],k->new ArrayList<>()).add(i);
         }
 ArrayList<Integer>indexes=mapp.get(ele);
+```
+## 11. Binary Search 
+```
+int indexofele=Collections.binarySearch(indexes,index); // equivalent to lower_bound
+
+```
