@@ -73,9 +73,18 @@ int[][][] dp = new int[n][m][k];
 
 ## 9. Declaration of Array 
 ```java
+1D
 List<Integer> position = new ArrayList<>();
 
 List<Integer> position = new ArrayList<>(n); with size n
+
+2D
+List<List<Integer>>dp=new ArrayList<>();
+  for(int i=0;i<n;i++){
+      List<Integer>row=new ArrayList<>(Collections.nCopies(position.size(),-1));
+      dp.add(row);
+  }
+//access dp.get(i).get(j);
 
 ```
 
