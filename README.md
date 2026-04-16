@@ -10,6 +10,7 @@
 7) Declaration int minimum and maximum
 8) Declaration of Array
 9) Declaration of List
+10) Map in Java
 
 
 ## 1. Java Packages Info
@@ -94,4 +95,10 @@ List<List<Long>>dp=new ArrayList<>();
 // set dp.get(i).set(i, value)
 
 ```
-
+## 10. Declaration of Array 
+```
+ HashMap<Integer, ArrayList<Integer>>mapp=new HashMap<>();
+        for(int i=0;i<nums.length;i++){
+            mapp.computeIfAbsent(nums[i],k->new ArrayList<>()).add(i);
+        }
+ArrayList<Integer>indexes=mapp.get(ele);
