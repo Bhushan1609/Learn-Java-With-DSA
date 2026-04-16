@@ -7,7 +7,8 @@
 4) Swap built function work in the case list only
 5) Get and set values of list
 6) Array length int[] arr
-7) Declaration int minimum and maximum 
+7) Declaration int minimum and maximum
+8) Declaration of Array
 
 ## 1. Java Packages Info
 import java.io.*; tells the compiler import all the input/output packages e,g File,FileInputStream,PrintWriter,BufferedReader,BufferedWriter
@@ -54,5 +55,15 @@ long min = Long.MIN_VALUE;
 
 int max = Integer.MAX_VALUE;
 long max = Long.MAX_VALUE;
+
+```
+
+## 7. Declaration of Array 
+```java
+int[] dp = new int[n];
+
+int[][] dp = new int[n][m];
+
+int[][][] dp = new int[n][m][k];
 
 ```
