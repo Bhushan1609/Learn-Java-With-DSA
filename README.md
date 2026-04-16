@@ -6,7 +6,8 @@
 3) Creates a dynamic ArrayList initialized with given values using Arrays.asList().
 4) Swap built function work in the case list only
 5) Get and set values of list
-6) Array length int[] arr 
+6) Array length int[] arr
+7) Declaration int minimum and maximum 
 
 ## 1. Java Packages Info
 import java.io.*; tells the compiler import all the input/output packages e,g File,FileInputStream,PrintWriter,BufferedReader,BufferedWriter
@@ -45,4 +46,13 @@ arr.set(j,temp);
 ```java
 int[] arr
 int n=arr.length;
+```
+## 7. Declaration int minimum and maximum 
+```java
+int min = Integer.MIN_VALUE;
+long min = Long.MIN_VALUE;
+
+int max = Integer.MAX_VALUE;
+long max = Long.MAX_VALUE;
+
 ```
