@@ -85,6 +85,7 @@ List<List<Integer>>dp=new ArrayList<>();
       dp.add(row);
   }
 //access dp.get(i).get(j);
+// set dp.get(i).set(i, value)
 
 ```
 
