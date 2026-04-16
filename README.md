@@ -84,6 +84,12 @@ List<List<Integer>>dp=new ArrayList<>();
       List<Integer>row=new ArrayList<>(Collections.nCopies(position.size(),-1));
       dp.add(row);
   }
+// for longggggggg
+List<List<Long>>dp=new ArrayList<>();
+  for(int i=0;i<n;i++){
+      List<Long>row=new ArrayList<>(Collections.nCopies(position.size(),-1L));
+      dp.add(row);
+  }
 //access dp.get(i).get(j);
 // set dp.get(i).set(i, value)
 
