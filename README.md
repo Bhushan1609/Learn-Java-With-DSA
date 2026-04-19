@@ -7,7 +7,7 @@
 4) Swap built function work in the case list only
 5) Get and set values of list
 6) Array length int[] arr
-7) Declaration int minimum and maximum
+7) Declaration int minimum and   maximum
 8) Declaration of Array
 9) Declaration of List
 10) Map in Java
